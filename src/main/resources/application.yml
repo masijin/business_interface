@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+
+#pagehelper∑÷“≥≤Âº˛≈‰÷√
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+imageHost: http://localhost:8080
